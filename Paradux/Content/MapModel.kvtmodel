@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model Version="" Evolution="2" Guid="2989400d-8435-4355-a6a8-c18506fc5e9c" IdGenerator="30" IsValid="true">
+  <SearchPaths />
+  <Assemblies>
+    <Assembly Id="1" Name="Paradux.exe" Expanded="true" Selected="false" Path="C:\Users\Alex\Documents\My Dropbox\Paradux\Paradux\Paradux\bin\x86\Release\Paradux.exe">
+      <Namespaces>
+        <Namespace Id="2" Name="Paradux" Expanded="true" Selected="false">
+          <Classes>
+            <PersistentClass Id="4" Name="Map" Expanded="true" Selected="false" ChangeTrackingMode="Default" BaseClassId="0" Type="Paradux.Map, Paradux, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" IsAbstract="false">
+              <Fields>
+                <PersistentField Id="5" Name="map" Expanded="false" Selected="false" MappedType="Paradux.Tile[],Paradux" />
+                <PersistentField Id="13" Name="width" Expanded="false" Selected="false" MappedType="System.Int32,mscorlib" />
+                <PersistentField Id="14" Name="height" Expanded="false" Selected="false" MappedType="System.Int32,mscorlib" />
+              </Fields>
+              <Properties />
+            </PersistentClass>
+            <PersistentClass Id="6" Name="Tile" Expanded="true" Selected="false" ChangeTrackingMode="Default" BaseClassId="0" Type="Paradux.Tile, Paradux, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" IsAbstract="false">
+              <Fields>
+                <PersistentField Id="7" Name="position" Expanded="false" Selected="false" MappedType="Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework" />
+                <PersistentField Id="8" Name="size" Expanded="false" Selected="false" MappedType="Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework" />
+                <PersistentField Id="10" Name="player" Expanded="false" Selected="false" MappedType="System.Int32,mscorlib" />
+                <PersistentField Id="11" Name="x" Expanded="false" Selected="false" MappedType="System.Int32,mscorlib" />
+                <PersistentField Id="12" Name="y" Expanded="false" Selected="false" MappedType="System.Int32,mscorlib" />
+                <PersistentField Id="15" Name="type" Expanded="false" Selected="false" MappedType="Paradux.Tile+TileType,Paradux" />
+              </Fields>
+              <Properties />
+            </PersistentClass>
+          </Classes>
+          <Structures />
+        </Namespace>
+        <Namespace Id="3" Name="Paradux.Maths" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+      </Namespaces>
+    </Assembly>
+    <Assembly Id="16" Name="Microsoft.Xna.Framework.dll" Expanded="true" Selected="false" Path="C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.dll">
+      <Namespaces>
+        <Namespace Id="17" Name="Microsoft.Xna.Framework" Expanded="true" Selected="false">
+          <Classes />
+          <Structures>
+            <PersistentStructure Id="28" Name="Vector2" Expanded="true" Selected="false" BaseClassId="0" Type="Microsoft.Xna.Framework.Vector2, Microsoft.Xna.Framework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" IsAbstract="false">
+              <Fields>
+                <PersistentField Id="29" Name="X" Expanded="false" Selected="false" MappedType="System.Single,mscorlib" />
+                <PersistentField Id="30" Name="Y" Expanded="false" Selected="true" MappedType="System.Single,mscorlib" />
+              </Fields>
+              <Properties />
+            </PersistentStructure>
+          </Structures>
+        </Namespace>
+        <Namespace Id="18" Name="Microsoft.Xna.Framework.Audio" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="19" Name="Microsoft.Xna.Framework.Content" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="20" Name="Microsoft.Xna.Framework.Design" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="21" Name="Microsoft.Xna.Framework.GamerServices" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="22" Name="Microsoft.Xna.Framework.Graphics" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="23" Name="Microsoft.Xna.Framework.Graphics.PackedVector" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="24" Name="Microsoft.Xna.Framework.Input" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="25" Name="Microsoft.Xna.Framework.Media" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="26" Name="Microsoft.Xna.Framework.Net" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+        <Namespace Id="27" Name="Microsoft.Xna.Framework.Storage" Expanded="false" Selected="false">
+          <Classes />
+          <Structures />
+        </Namespace>
+      </Namespaces>
+    </Assembly>
+  </Assemblies>
+</Model>

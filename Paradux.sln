@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paradux", "Paradux\Paradux.csproj", "{4AC66987-1211-42F6-9667-9BEA79C357F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarseerPhysics", "FarseerPhysics2.0.1OnlyForXNA\FarseerPhysics.csproj", "{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Edit|x86 = Edit|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AC66987-1211-42F6-9667-9BEA79C357F5}.Debug|x86.ActiveCfg = Debug|x86
+		{4AC66987-1211-42F6-9667-9BEA79C357F5}.Debug|x86.Build.0 = Debug|x86
+		{4AC66987-1211-42F6-9667-9BEA79C357F5}.Edit|x86.ActiveCfg = Edit|x86
+		{4AC66987-1211-42F6-9667-9BEA79C357F5}.Edit|x86.Build.0 = Edit|x86
+		{4AC66987-1211-42F6-9667-9BEA79C357F5}.Release|x86.ActiveCfg = Release|x86
+		{4AC66987-1211-42F6-9667-9BEA79C357F5}.Release|x86.Build.0 = Release|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Debug|x86.ActiveCfg = Debug|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Debug|x86.Build.0 = Debug|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Edit|x86.ActiveCfg = Edit|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Edit|x86.Build.0 = Edit|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Release|x86.ActiveCfg = Release|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Release|x86.Build.0 = Release|x86
+		{E372A562-5ACB-4EBC-BEDC-D84457BEA508}.Debug|x86.ActiveCfg = Debug|x86
+		{E372A562-5ACB-4EBC-BEDC-D84457BEA508}.Edit|x86.ActiveCfg = Edit|x86
+		{E372A562-5ACB-4EBC-BEDC-D84457BEA508}.Release|x86.ActiveCfg = Release|x86
+		{5DB75E98-A054-4091-AB49-F5DB0F17F771}.Debug|x86.ActiveCfg = Debug|x86
+		{5DB75E98-A054-4091-AB49-F5DB0F17F771}.Edit|x86.ActiveCfg = Edit|x86
+		{5DB75E98-A054-4091-AB49-F5DB0F17F771}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
